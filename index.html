@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Captcha</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/generalcss.css">
+	<link rel="stylesheet" type="text/css" href="css/captchacss.css">
+
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="captcha()">
+	<section>
+		<h1 tabindex="0">Por favor, preencha o campo abaixo.</h1>
+
+		<div>
+			<span><p tabindex="0"></p></span>
+			<input type="text" placeholder="Resolva a operação matemática" id="txtcaptcha">
+			<label tabindex="0" title="Recarregar" id="reclabel">
+				<input type="button" id="recaptcha" value="Recarregar" onclick="captcha()">
+				<i class="fa fa-refresh" aria-hidden="true"></i>
+			</label>
+
+			<input type="button" id="sendcaptcha" value="Enviar" onclick="getcaptcha(document.getElementById('txtcaptcha').value)">
+
+			<p id="nothuman" tabindex="0">Entrada incorreta.</p>
+		</div>
+			
+
+	</section>
+
+	<script type="text/javascript" src="js/captchascrpit.js"></script>
+</body>
+</html>

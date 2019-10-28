@@ -1,0 +1,19 @@
+main article{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+main article p{
+	width: 100%;
+	text-align: justify;
+	margin-bottom: 16px;
+}
+
+main article figure{ width: 100%; }
+main article img{ width: 100%; }
+
+main article a{
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+} article a:hover{ text-decoration: underline; }

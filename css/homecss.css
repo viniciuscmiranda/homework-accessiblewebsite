@@ -1,0 +1,12 @@
+main article{
+	display: flex;
+	justify-content: space-between;
+}
+
+main article p{
+	width: 600px;
+	text-align: justify;
+}
+
+main article figure{ width: 340px; }
+main article img{ width: 100%; }

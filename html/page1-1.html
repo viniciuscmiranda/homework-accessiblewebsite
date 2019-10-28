@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Página 1 - 1</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/generalcss.css">
+	<link rel="stylesheet" type="text/css" href="../css/pg1-1css.css">
+
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="darkmode()">
+	<header>
+		<nav>
+			<div id="menu" class="align">
+				<h1>Um Site Acessível!</h1>
+				<div id="menunav">
+					<ul>
+						<a href="home.html" tabindex="0"><li>Home</li></a>
+						<a href="page1.html"><li>Página 1</li></a>
+						<a href="page2.html"><li>Página 2</li></a>
+					</ul>
+
+					<div id="controls">
+						<label id="darkmode" tabindex="0">
+							<input type="button" onclick="darkmode()">
+							<i class="fa fa-sun-o" title="Modo Noturno: Desligado"></i>
+							<i class="fa fa-moon-o" title="Modo Noturno: Ligado"></i>
+						</label>
+
+						<div id="fontslider">
+							<span>A</span>
+							<input title="Tamanho da fonte" type="range" min="14" max="24" value="16"  tabindex="0" oninput="fontsize(this.value)">
+							<span>A</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<nav>
+			<div id="path" class="align">
+				<ul>
+					<a href="home.html" title="Home"><li><i class="fa fa-home" aria-hidden="true" style="font-size: 22px;"></i></li></a>
+					<i class="fas fa-angle-right"></i>
+
+					<a href="page1.html"><li>Página 1</li></a>
+					<i class="fas fa-angle-right"></i>
+
+					<a href="page1-1.html"><li>Página 1-1</li></a>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="align">
+		<article>
+			<figure>
+				<img src="../img/img.jpg" alt="Uma imagem!" title="Uma imagem!" tabindex="0">
+			</figure>
+			<p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</main>
+
+
+	<script type="text/javascript" src="../js/geralscript.js"></script>
+</body>
+</html>

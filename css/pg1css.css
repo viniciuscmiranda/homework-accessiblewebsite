@@ -1,0 +1,22 @@
+main article{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+main article p{
+	width: 600px;
+	text-align: justify;
+}
+main article p a{
+	float: right;
+}
+
+main article figure{ width: 340px; text-align: center; }
+main article img{ width: 100%; }
+
+main article a{
+	text-decoration: none;
+	color: inherit;
+	font-weight: bold;
+} article a:hover{ text-decoration: underline; }

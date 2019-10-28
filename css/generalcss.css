@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	transition: background ease-in 0.2s;
+}
+
+header nav:first-child { background-color: #ccc; }
+header nav:last-child {	background-color: #eee; }
+header nav #menunav, nav #controls{
+	display: flex;
+	justify-content: space-between;
+}
+
+#menu h1{
+	margin-bottom: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 28px;
+	font-weight: lighter;
+	font-family: Calibri;
+}
+
+#menu{ 
+	padding: 12px 0 4px 0;
+}
+#path{ padding: 16px; }
+#path ul i{ margin-right: 16px; }
+
+#menu ul, #path ul{ list-style: none; }
+#menu ul a, #path ul a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	margin-right: 16px;
+	text-transform: uppercase;
+} 
+#menu ul a:hover, #path ul a:hover{ text-decoration: underline; }
+#menu ul a{	
+	font-weight: bold; 
+	margin-right: 24px;
+}
+
+#path ul a:first-child{	
+	margin-right: 0;
+}
+
+#darkmode{
+	margin-right: 16px;
+
+}
+#darkmode i{ cursor: pointer; }
+#darkmode i[class="fa fa-moon-o"]{ display: none; }
+#darkmode input{ display: none; }
+
+#fontslider{ 
+	position: relative; 
+	width: 170px;
+	text-align: center;
+}
+#fontslider span:first-child{ 
+	top: 2px;
+	left: 4px;
+	font-size: 14px; 
+}
+#fontslider span:last-child{ 
+	top: -6px;
+	right: 0;
+	font-size: 24px; 
+}
+#fontslider span{
+	font-weight: bold;
+	position: absolute;
+}
+
+.align{
+	/*
+	width: 80%;
+	max-width: 960px;
+	*/
+	width: 960px;
+	margin: 0 auto;
+}
+
+main{
+	padding: 16px 0;
+	transition: color ease-in 0.3s;
+	margin-top: 200px;
+}
